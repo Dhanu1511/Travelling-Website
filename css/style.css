@@ -515,6 +515,7 @@ h1, h2, h3{
     background-position: center;
     background-attachment: fixed;
     background-blend-mode: multiply;
+    
 }
 
 .review .heading{
@@ -536,7 +537,7 @@ h1, h2, h3{
 }
 
 .review .box-container .box{
-    width: 35rem;
+    width: 32rem;
     margin: 4rem 2rem;
     padding-bottom: 2rem;
     text-align: center;
@@ -546,6 +547,7 @@ h1, h2, h3{
 
 .review .box-container .box .image{
     margin-top: -5rem;
+
 }
 
 .review .box-container .box .image img{
@@ -554,6 +556,7 @@ h1, h2, h3{
     border-radius: 50%;
     object-fit: cover;
     border: 7rem solid #fff;
+    box-sizing: content-box;
 }
 
 .review .box-container .box .content h3{
@@ -570,4 +573,11 @@ h1, h2, h3{
     color: gold;
     font-size: 1.7rem;
     padding: 1rem 1rem;
+}
+
+.image{
+    width: 250px;
+    margin-bottom: 0.5rem;
+    border-radius: 50%;
+    box-sizing:unset;
 }
